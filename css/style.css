@@ -20,7 +20,7 @@ body {
 
 
 
-.logo.link.login {
+.login {
         font-family: 'Raleway', sans-serif;
         color: #2e2f42;
         font-weight: 800;
@@ -39,6 +39,13 @@ body {
 
 }
 
+.span {
+    color: var(#2e2f42);
+}
+
+
+
+
 span.logo-style {
     font-family: 'Raleway', sans-serif;
     color: #f4f4fd;
@@ -48,7 +55,7 @@ span.logo-style {
     letter-spacing: 0.03em;
 }
 
-.list.nav {
+.list {
     list-style: none;
     
 }
