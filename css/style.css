@@ -1,240 +1,84 @@
-:root {
-
-}
-
-
-
-
-
-
-
-
-
-
 body {
-    font-family:'Roboto',sans-serif;
-    color: #434455;
-    background-color: #ffffff;
+   color: #434455;
+   background-color: #E5E5E5;
 }
-
-
-
-
-.login {
-        font-family: 'Raleway', sans-serif;
-        color: #2e2f42;
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-}
-.logo.link {
-    text-decoration: none;
-    font-family: 'Raleway', sans-serif;
-    font-size: 16px;
-    line-height: 1.15;
-    letter-spacing: 0.02em;
-    font-weight: 500
-
-}
-
-.span {
-    color: var(#2e2f42);
-}
-
-
-
-
-span.logo-style {
-    font-family: 'Raleway', sans-serif;
-    color: #f4f4fd;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
+.page {
+color:#2E2F42;
+background-color: #E5E5E5;
 }
 
 .list {
     list-style: none;
-    
-}
-
-.navigation-item {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    color: var(#2e2f42);
-
-} 
-.link {
-text-decoration: none;
-} 
- 
-.navigation-item:hover,
-.navigation-item:focus {
-    color: #404bbf;
 }
 
 
+/*site nav*/
 
+.site-nav .link {
+    color:#2E2F42;
+}
 
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: red;
+}
 
+/*addres*/
 .addres {
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+    color: #434455;
 }
-.addres-item {
-    color:var(#434455);
+.addres:hover,
+.addres:focus {
 
 }
-.addres-item:hover,
-.addres-item:focus {
-    color: var(#404bbf);
+
+/*main*/
+
+/*first-section 111111111111111111111111111111111111111111111*/
+
+.first {
+    background-color: #2E2F42;
 }
-
-
-
-
-
-
-.title {
-   
-    font-size: 56px;
-    line-height: 1.07;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: #ffffff
+.first-title {
+    color: #FFFFFF;
 }
-
-
-.servise {
-background-color: var(#2e2f42);
-color: var(#2e2f42);
-}
-
-.title-head {
-    color: var(#2e2f42);
-}
-
-
-
-
-
-.order {
+.first-btn {
+    color: #FFFFFF;
     background-color: #4D5AE5;
-    color: #ffffff;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
 }
-.order:hover,
-.order:focus {
-    background-color: #404BBF;
-    cursor: pointer;
+.first-btn:hover,
+.first-btn:focus {
+
 }
 
 
-.strategy-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(#2e2f42);
+/*next-section 22222222222222222222222222222222222222222222222222222222222*/
 
+/*2-3 SECTION   3333333333333333333333333333333333333333*/
+.section {
+    background-color: #E5E5E5;
 }
-.discription-text {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-.title-picture {
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    
+.section-title {
+    color: #2E2F42;
 }
 
-.title-picture {
-color: var(#2e2f42);
+.section-text {
+ color: #434455;
 }
 
-.about {
-    background-color: #F4F4FD
-}
+/*4-SECTION   4444444444444444444444444444444444444444444444444444*/
 
-.title-about {
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: var(#2e2f42);
-}
-
-.title-about {
-color: var(#2e2f42);
-}
-
-.name-item {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-   
-}
-
-.name-item {
-color: var(#2e2f42);
+.next {
+    background-color: #F4F4FD;
 }
 
 
-.about-text {
-    line-height: 1.5;
-    letter-spacing: 0.02em
-}
-
-.about-list {
-    background-color: #FFFFFF;
-}
-
+/*footer   555555555555555555555555555555555555555555555555555*/
 
 .footer {
-    font-family: "Raleway", sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(#4d5ae5);
+    background-color: #2E2F42;
+
 }
-
-.logo.link {
-    color: var(#4d5ae5);
-}
-
-
-
-
-
-
-
-.type-btn {
-    
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    
-}
-
-
-
-
-.footer {
-    background-color: #2e2f42;
+.footer-text {
+    color: #F4F4FD;
 }
