@@ -1,6 +1,7 @@
 body {
    color: #434455;
    background-color: #E5E5E5;
+  font-family: 'Roboto',sans-serif
 }
 .page {
 color:#2E2F42;
@@ -12,9 +13,27 @@ background-color: #E5E5E5;
 }
 
 
+.logo{
+    font-family: Raleway;
+    font-style: ExtraBold;
+    font-size: 18px;
+    line-height: 1.17;
+    color: #4D5AE5;
+}
+span {
+    color: #2E2F42;
+}
+span.span-footer {
+    color: #F4F4FD;
+}
+
+
 /*site nav*/
 
 .site-nav .link {
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 1.5;
     color:#2E2F42;
 }
 
@@ -25,6 +44,9 @@ background-color: #E5E5E5;
 
 /*addres*/
 .addres {
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 1.5;
     color: #434455;
 }
 .addres:hover,
@@ -40,12 +62,26 @@ background-color: #E5E5E5;
     background-color: #2E2F42;
 }
 .first-title {
+    font-style: Bold;
+    font-size: 56px;
+    line-height: 1.07;
     color: #FFFFFF;
 }
 .first-btn {
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 1.5;
     color: #FFFFFF;
     background-color: #4D5AE5;
 }
+.button-features {
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 1,5;
+
+}
+
+
 .first-btn:hover,
 .first-btn:focus {
 
@@ -59,11 +95,17 @@ background-color: #E5E5E5;
     background-color: #E5E5E5;
 }
 .section-title {
+    font-style: Medium;
+    font-size: 20px;
+    line-height: 1.2;
     color: #2E2F42;
 }
 
 .section-text {
- color: #434455;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
 }
 
 /*4-SECTION   4444444444444444444444444444444444444444444444444444*/
@@ -80,5 +122,8 @@ background-color: #E5E5E5;
 
 }
 .footer-text {
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 1.5;
     color: #F4F4FD;
 }
