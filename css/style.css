@@ -1,7 +1,21 @@
+:root {
+    --body-backgraund-color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
 body {
    color: #434455;
+   background-color: var(#FFFFFF);
    background-color: #E5E5E5;
-  font-family: 'Roboto',sans-serif
+   font-family: 'Roboto',sans-serif
 }
 .page {
 color:#2E2F42;
@@ -11,14 +25,24 @@ background-color: #E5E5E5;
 .list {
     list-style: none;
 }
+.link {
+    text-decoration: none;
+}
+.link.logo {
+    text-decoration: none;
+}
 
 
-.logo{
-    font-family: Raleway;
+
+.logo {
+    font-family: Raleway,sans-serif;
     font-style: ExtraBold;
     font-size: 18px;
     line-height: 1.17;
     color: #4D5AE5;
+    font-weight: 800;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 span {
     color: #2E2F42;
@@ -35,6 +59,8 @@ span.span-footer {
     font-size: 16px;
     line-height: 1.5;
     color:#2E2F42;
+    font-weight: 500;
+    letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -43,15 +69,17 @@ span.span-footer {
 }
 
 /*addres*/
-.addres {
+.address-item {
     font-style: Regular;
     font-size: 16px;
     line-height: 1.5;
     color: #434455;
+    font-style: normal;
+    letter-spacing: 0.02em;
 }
-.addres:hover,
-.addres:focus {
-
+.address-item:hover,
+.address-item:focus {
+color: #404bbf;
 }
 
 /*main*/
@@ -66,14 +94,29 @@ span.span-footer {
     font-size: 56px;
     line-height: 1.07;
     color: #FFFFFF;
+    text-align: center;
+    letter-spacing: 0.02em;
 }
 .first-btn {
+    font-family: "Roboto", sans-serif;
     font-style: Medium;
+    font-weight: 500;
+    letter-spacing: 0.04em;
     font-size: 16px;
     line-height: 1.5;
     color: #FFFFFF;
     background-color: #4D5AE5;
+    cursor: pointer
 }
+
+.first-btn:hover,
+.first-btn:focus {
+    background-color: #404BBF;
+}
+
+
+
+
 .button-features {
     font-style: Regular;
     font-size: 16px;
@@ -99,6 +142,16 @@ span.span-footer {
     font-size: 20px;
     line-height: 1.2;
     color: #2E2F42;
+   
+}
+
+.section-caption {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+
 }
 
 .section-text {
