@@ -125,22 +125,24 @@ color: #404bbf;
 
 
 
-.button {
-    font-family: "Roboto", sans-serifv;
+.button-portfolio {
     font-family: "Roboto", sans-serif;
+    font-weight: 500;
     font-style: Regular;
     font-size: 16px;
     line-height: 1,5;
     letter-spacing: 0.04em;
     cursor: pointer;
+    color: #4d5ae5;
+    background-color: #F4F4FD;
 
 }
-.button:hover,
-.button:focus {
+.button-portfolio:hover,
+.button-portfolio:focus {
     color: #FFFFFF
 }
-.button:hover,
-.button:focus {
+.button-portfolio:hover,
+.button-portfolio:focus {
 background-color: #404BBF;
 
 }
@@ -186,6 +188,7 @@ background-color: #404BBF;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 
 }
 
@@ -197,11 +200,12 @@ background-color: #404BBF;
     letter-spacing: 0.02em;
 }
 
-.poportfolio-text {
+.portfolio-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    
+    color: #434455;
+
 }
 
 /*4-SECTION   4444444444444444444444444444444444444444444444444444*/
