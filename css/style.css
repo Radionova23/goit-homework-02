@@ -181,12 +181,27 @@ background-color: #404BBF;
 
 }
 
+.portfolio-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+
+}
+
 .section-text {
     font-style: Regular;
     font-size: 16px;
     line-height: 1.5;
     color: #434455;
     letter-spacing: 0.02em;
+}
+
+.poportfolio-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    
 }
 
 /*4-SECTION   4444444444444444444444444444444444444444444444444444*/
