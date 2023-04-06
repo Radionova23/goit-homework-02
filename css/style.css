@@ -13,7 +13,7 @@
 
 body {
    color: #434455;
-   background-color: var(#FFFFFF);
+   background-color:var(--primary-white);
    font-family: 'Roboto',sans-serif
 }
 .page {
@@ -130,7 +130,8 @@ color: #404bbf;
     font-weight: 500;
     font-style: Regular;
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 1.5;
+    
     letter-spacing: 0.04em;
     cursor: pointer;
     color: #4d5ae5;
