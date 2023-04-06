@@ -13,8 +13,9 @@
 
 body {
    color: #434455;
-   background-color:var(--primary-white);
+   background-color: var(--background-page);
    font-family: 'Roboto',sans-serif
+
 }
 .page {
 color:#2E2F42;
