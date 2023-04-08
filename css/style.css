@@ -64,7 +64,6 @@ background-color: var(--background-page-portfolio);
 
 .logo {
     font-family: Raleway,sans-serif;
-    font-style: ExtraBold;
     font-size: 18px;
     line-height: 1.17;
     color: var(--color-logo);
@@ -85,7 +84,6 @@ span.span-footer {
 /*site nav*/
 
 .site-nav .link {
-    font-style: Medium;
     font-size: 16px;
     line-height: 1.5;
     color: var(--color-site-nav-normal);
@@ -104,7 +102,7 @@ span.span-footer {
     font-style: normal;
 }
 .address-item {
-    font-style: Regular;
+    font-style: normal;
     font-size: 16px;
     line-height: 1.5;
     color: var(--color-address-item-normal);
@@ -123,7 +121,6 @@ color: var(--color-address-item-hover);
     background-color:var(--background-color-first);
 }
 .first-title {
-    font-style: Bold;
     font-size: 56px;
     line-height: 1.07;
     color: var(--color-first-title); 
@@ -137,7 +134,6 @@ color: var(--color-address-item-hover);
 }
 .first-btn {
     font-family: "Roboto", sans-serif;
-    font-style: Medium;
     font-weight: 500;
     letter-spacing: 0.04em;
     font-size: 16px;
@@ -158,7 +154,6 @@ color: var(--color-address-item-hover);
 .button-portfolio {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
-    font-style: Regular;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -195,7 +190,6 @@ background-color:var(--background-color-button-portfolio-hover);
     background-color: var(--background-color-hero);
 }
 .section-title {
-    font-style: Medium;
     font-size: 20px;
     line-height: 1.2;
     color: var(--color-section-title);
@@ -260,7 +254,6 @@ background-color:var(--background-color-button-portfolio-hover);
 
 }
 .footer-text {
-    font-style: Regular;
     font-size: 16px;
     line-height: 1.5;
     color:var(--color-footer-text);
